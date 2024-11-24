@@ -37,7 +37,7 @@ To run the Aim Trainer, you need:
       pyinstaller --add-data "imgs/icon.jpg;imgs" --hidden-import=pygame --windowed --onefile aim_trainer.py
       ```
 3. **Prebuilt Executable**:
-   Alternatively, download the prebuilt `.exe` file from the [Releases](#(https://github.com/JacobsProjects/Python-Aim-Trainer/releases/tag/1.0.0)) section of this project.
+   Alternatively, download the prebuilt `.exe` file from the [Releases](https://github.com/JacobsProjects/Python-Aim-Trainer/releases/tag/1.0.0) section of this project.
 
 4. A red target will appear on a gray background. Click on the target to score points before it grows too large.
 
