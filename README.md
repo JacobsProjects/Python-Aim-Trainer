@@ -1,7 +1,4 @@
-# Python-Aim-Trainer
-download aimlabs
-
-# Aim Trainer
+# Python Aim Trainer 
 
 ## Overview
 This **Aim Trainer** is a lightweight Python-based application designed to help users enhance their mouse accuracy and reflexes. The game features a growing target that the player must hit before it grows too large, with performance statistics tracked and saved for post-game review.
