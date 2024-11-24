@@ -25,10 +25,12 @@ To run the Aim Trainer, you need:
    python aim_trainer.py
    ```
    Or, if you want it to be an exe file
-   1. ```bash
+   1. Install pyinstall
+      ```bash
       pip install pyinstall
       ```
-   2. ```bash
+    2. Build using pyinstall    
+       ```bash
       pyinstaller --add-data "imgs/icon.jpg;imgs" --hidden-import=pygame --windowed --onefile aimtrainer.py
       ```
 3. A red target will appear on a gray background. Click on the target to score points before it grows too large.
