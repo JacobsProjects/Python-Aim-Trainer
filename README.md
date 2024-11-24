@@ -19,23 +19,32 @@ To run the Aim Trainer, you need:
    pip install pygame
    ```
 
+
 ## How to Play
+
 1. Launch the application by running the Python script:
    ```bash
    python aim_trainer.py
    ```
-   Or, if you want it to be an exe file
-   1. Install pyinstall
+
+2. **Optional**: If you want to create an executable (`.exe`) file:
+   1. Install **PyInstaller**:
       ```bash
-      pip install pyinstall
+      pip install pyinstaller
       ```
-    2. Build using pyinstall    
-       ```bash
-      pyinstaller --add-data "imgs/icon.jpg;imgs" --hidden-import=pygame --windowed --onefile aimtrainer.py
+   2. Build the executable using **PyInstaller**:
+      ```bash
+      pyinstaller --add-data "imgs/icon.jpg;imgs" --hidden-import=pygame --windowed --onefile aim_trainer.py
       ```
-3. A red target will appear on a gray background. Click on the target to score points before it grows too large.
-4. Each successful hit will increase your score and spawn a new target with a random size and position.
-5. If the target grows beyond its maximum size, the game ends.
+3. **Prebuilt Executable**:
+   Alternatively, download the prebuilt `.exe` file from the [Releases](#) section of this project.
+
+4. A red target will appear on a gray background. Click on the target to score points before it grows too large.
+
+5. Each successful hit will increase your score and spawn a new target with a random size and position.
+
+6. If the target grows beyond its maximum size, the game ends.
+
 
 ## Game Controls
 - **Mouse Click**: Hit the target to score points.
